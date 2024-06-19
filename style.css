@@ -1,15 +1,17 @@
-body{
+body {
     font-family: Arial, sans-serif;
-    background-color: hsl(0, 0%, 95%);
+    background-image: url(background.jpg);
     margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.weatherForm{
+
+.weatherForm {
     margin: 20px;
 }
-.cityInput{
+
+.cityInput {
     padding: 10px;
     font-size: 2rem;
     font-weight: bold;
@@ -18,7 +20,8 @@ body{
     margin: 10px;
     width: 300px;
 }
-button[type="submit"]{
+
+button[type="submit"] {
     padding: 10px 20px;
     font-weight: bold;
     font-size: 2rem;
@@ -28,43 +31,53 @@ button[type="submit"]{
     border-radius: 5px;
     cursor: pointer;
 }
-button[type="submit"]:hover{
+
+button[type="submit"]:hover {
     background-color: hsl(122, 39%, 40%);
 }
-.card{
-    background: linear-gradient(180deg, hsl(210,100%,75%), hsl(40,100%,75%));
+
+.card {
+    background: linear-gradient(180deg, hsl(210, 100%, 75%), hsl(40, 100%, 75%));
     padding: 30px;
-    box-shadow: 2px 2px 5px hsl(0,0%,0%,0.5);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px hsl(0, 0%, 0%, 0.5);
     min-width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-h1{
+
+h1 {
     font-size: 3.5rem;
     margin-top: 0;
     margin-bottom: 25px;
 }
-p{
+
+p {
     font-size: 1.5rem;
     margin: 5px 0;
 }
-.cityDisplay, .tempDisplay{
+
+.cityDisplay,
+.tempDisplay {
     font-size: 3.5rem;
     font-weight: bold;
     color: hsla(0, 0%, 0%, 0.75);
     margin-bottom: 25px;
 }
-.descDisplay{
+
+.descDisplay {
     font-style: italic;
     font-weight: bold;
     font-size: 2rem;
 }
-.weatherEmoji{
+
+.weatherEmoji {
     margin: 0;
     font-size: 7.5rem;
 }
-.errorDisplay{
+
+.errorDisplay {
     font-size: 2.5rem;
     font-weight: bold;
 }
